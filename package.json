@@ -1,6 +1,6 @@
 {
   "name": "who-is-steven-ho",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Who is Steven Ho?",
   "main": "index.js",
   "bin": {
