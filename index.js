@@ -39,7 +39,7 @@ function handleResume() {
       .prompt({
         type: "list",
         name: "exitBack",
-        message: "返回上一頁 ?",
+        message: "返回上一頁?",
         choices: ["返回", "離開"]
       })
       .then(choice => {
