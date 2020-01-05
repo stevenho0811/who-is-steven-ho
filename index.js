@@ -22,7 +22,7 @@ function showResume() {
 function handleResume() {
   inquirer.prompt(options).then(answer => {
     if (answer.resumeOptions == "👋 掰掰") {
-      console.log(response("謝謝您抽空觀看!"));
+      console.log(response("謝謝您抽空!"));
       return;
     }
     const option = resume[`${answer.resumeOptions}`]
@@ -46,7 +46,7 @@ function handleResume() {
         if (choice.exitBack == "上一頁") {
           handleResume();
         } else {
-          console.log(response("謝謝您抽空觀看!"));
+          console.log(response("謝謝您抽空!"));
           return;
         }
       });
