@@ -1,0 +1,38 @@
+{
+  "學歷 📚": [
+    "朝陽科技大學 資訊管理系 2014 - 2018"
+  ],
+  "過去經驗 🧪": [
+    "電獺股份有限公司 - 前端工程師 - 2017/10, 2年4個月",
+    "Good to Go 好盒器 - 網頁開發實習生 - 2017/6 - 2017/9, 3個月",
+    "MapsWalker 沃克地圖 - UI/UX 設計師 (共同創辦人) - 2014/4 - 2016/6, 2年2個月"
+  ],
+  "技能 💻": [
+    "HTML5",
+    "CSS, SASS, SCSS",
+    "JavaScript (ECMA)",
+    "TypeScript",
+    "Vue.js, Nuxt.js,",
+    "Express.js",
+    "GraphQL, Apollo",
+    "PhotoShop, Sketch, Zeplin",
+    "Git, Terminal"
+  ],
+  "專案 🛠": [
+    "電獺少女 - http://agirls.aotter.net",
+    "SuprLink - https://supr.link",
+    "SuprOne - https://supr.one",
+    "Beanfun Web IM  - https://im.beanfun.com",
+    "Fact Or Fake 水門 - https://factorfake.co",
+    "Good to Go 好盒器 - https://goodtogo.tw",
+    "MapsWalker - https://www.mapswalker.com"
+  ],
+  "聯絡資訊 🤙": [
+    "+886-908-930-811",
+    "shockshocksoul@gmail.com",
+    "https://stevenho.info/",
+    "https://twitter.com/0811steven",
+    "https://www.linkedin.com/in/steven0811/",
+    "https://github.com/steven0811"
+  ]
+}
