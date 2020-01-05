@@ -40,10 +40,10 @@ function handleResume() {
         type: "list",
         name: "exitBack",
         message: "回到上一頁 ?",
-        choices: ["Back", "Exit"]
+        choices: ["上一頁", "離開"]
       })
       .then(choice => {
-        if (choice.exitBack == "Back") {
+        if (choice.exitBack == "上一頁") {
           handleResume();
         } else {
           console.log(response("謝謝您抽空觀看!"));
