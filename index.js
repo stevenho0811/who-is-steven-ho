@@ -39,11 +39,11 @@ function handleResume() {
       .prompt({
         type: "list",
         name: "exitBack",
-        message: "回到上一頁 ?",
-        choices: ["上一頁", "離開"]
+        message: "返回上一頁 ?",
+        choices: ["返回", "離開"]
       })
       .then(choice => {
-        if (choice.exitBack == "上一頁") {
+        if (choice.exitBack == "返回") {
           handleResume();
         } else {
           console.log(response("謝謝您抽空!"));
