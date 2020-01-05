@@ -11,7 +11,7 @@ const options = {
   type: "list",
   name: "resumeOptions",
   message: "你想知道什麼?",
-  choices: [...Object.keys(resume), "掰餔"]
+  choices: [...Object.keys(resume), "👋 掰掰"]
 };
 
 function showResume() {
@@ -21,8 +21,8 @@ function showResume() {
 
 function handleResume() {
   inquirer.prompt(options).then(answer => {
-    if (answer.resumeOptions == "掰餔") {
-      console.log(response("謝謝!"));
+    if (answer.resumeOptions == "👋 掰掰") {
+      console.log(response("謝謝您抽空觀看!"));
       return;
     }
     const option = resume[`${answer.resumeOptions}`]
@@ -46,7 +46,7 @@ function handleResume() {
         if (choice.exitBack == "Back") {
           handleResume();
         } else {
-          console.log(response("謝謝!"));
+          console.log(response("謝謝您抽空觀看!"));
           return;
         }
       });
