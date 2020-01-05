@@ -10,7 +10,7 @@ const response = chalk.bold.yellow;
 const options = {
   type: "list",
   name: "resumeOptions",
-  message: "你想知道什麼?",
+  message: "您想知道什麼?",
   choices: [...Object.keys(resume), "👋 掰掰"]
 };
 
@@ -22,7 +22,7 @@ function showResume() {
 function handleResume() {
   inquirer.prompt(options).then(answer => {
     if (answer.resumeOptions == "👋 掰掰") {
-      console.log(response("謝謝您抽空!"));
+      console.log(response("謝謝您撥空閱覽!"));
       return;
     }
     const option = resume[`${answer.resumeOptions}`]
@@ -46,11 +46,11 @@ function handleResume() {
         if (choice.exitBack == "返回") {
           handleResume();
         } else {
-          console.log(response("謝謝您抽空!"));
+          console.log(response("謝謝您撥空閱覽!"));
           return;
         }
       });
-  }).catch(err => console.log('Oops 糟糕,', err))
+  }).catch(err => console.log('Oops 有東西壞掉了,', err))
 }
 
 showResume();
