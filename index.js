@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const chalk = require("chalk");
 const resume = require("./resume.json");
 // add response color
-const response = chalk.bold.yellow;
+const response = chalk.bold.blue;
 
 const options = {
   type: "list",
