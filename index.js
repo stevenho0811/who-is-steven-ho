@@ -11,17 +11,33 @@ const options = {
   type: "list",
   name: "resumeOptions",
   message: "您想知道什麼?",
-  choices: [...Object.keys(resume), "👋 掰掰"]
+  choices: [...Object.keys(resume), "離開 👋"]
 };
 
 function showResume() {
-  console.log("Hi! 這是 Steven Ho (何俊億) 的簡歷 🤗");
+  console.log(`                                                  
+                        SSS                       
+                   SSS       SSS                  
+               SSS               SSS              
+               S SSS           SSS                
+               S     SSS   SSS                    
+               S         SSSS                     
+               S         S    SSS                 
+               SS        S        SS             
+                  SSS    S    SSS  S             
+                      SSSSSSS      S             
+                     SSS   SSS     S            
+                 SSS           SSS S            
+               SSS               SSS              
+                   SSS       SSS                  
+                        SSS`);
+  console.log("Hi! 這是 Steven Ho (何俊億) 的簡歷 🤗 \n");
   handleResume();
 }
 
 function handleResume() {
   inquirer.prompt(options).then(answer => {
-    if (answer.resumeOptions == "👋 掰掰") {
+    if (answer.resumeOptions == "離開 👋") {
       console.log(response("謝謝您撥空閱覽!"));
       return;
     }
