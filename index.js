@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 "use strict";
 
-const inquirer = require("inquirer");
-const chalk = require("chalk");
-const resume = require("./resume.json");
+// const inquirer = require("inquirer");
+// const chalk = require("chalk");
+// const resume = require("./resume.json");
+import chalk from 'chalk';
+import inquirer from 'inquirer';
+import resume from './resume.json' with { type: "json" };
 // add response color
 const response = chalk.bold.blue;
 
@@ -15,21 +18,21 @@ const options = {
 };
 
 function showResume() {
-  console.log(`                                                  
-                        SSS                       
-                   SSS       SSS                  
-               SSS               SSS              
-               S SSS           SSS                
-               S     SSS   SSS                    
-               S         SSSS                     
-               S         S    SSS                 
-               SS        S        SS             
-                  SSS    S    SSS  S             
-                      SSSSSSS      S             
-                     SSS   SSS     S            
-                 SSS           SSS S            
-               SSS               SSS              
-                   SSS       SSS                  
+  console.log(`
+                        SSS
+                   SSS       SSS
+               SSS               SSS
+               S SSS           SSS
+               S     SSS   SSS
+               S         SSSS
+               S         S    SSS
+               SS        S        SS
+                  SSS    S    SSS  S
+                      SSSSSSS      S
+                     SSS   SSS     S
+                 SSS           SSS S
+               SSS               SSS
+                   SSS       SSS
                         SSS`);
   console.log("Hi! 這是 Steven Ho (何俊億) 的簡歷 🤗 \n");
   handleResume();

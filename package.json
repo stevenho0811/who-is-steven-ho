@@ -2,6 +2,7 @@
   "name": "who-is-steven-ho",
   "version": "1.1.0",
   "description": "Who is Steven Ho?",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "who-is-steven-ho": "./index.js"
@@ -13,7 +14,7 @@
   "author": "Steven Ho",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "inquirer": "^8.1.2"
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
   }
 }

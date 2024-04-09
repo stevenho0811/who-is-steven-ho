@@ -1,4 +1,6 @@
-# 誰是史蒂芬何?
+# Who is Steven Ho?
+
+A simple way to view Steven Ho's resume through the CLI.
 
 ```
   npx who-is-steven-ho
